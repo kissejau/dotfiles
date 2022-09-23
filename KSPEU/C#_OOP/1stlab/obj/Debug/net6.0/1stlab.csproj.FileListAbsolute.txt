@@ -1,0 +1,15 @@
+/home/kissejau/KSPEU/C#_OOP/1stlab/bin/Debug/net6.0/1stlab
+/home/kissejau/KSPEU/C#_OOP/1stlab/bin/Debug/net6.0/1stlab.deps.json
+/home/kissejau/KSPEU/C#_OOP/1stlab/bin/Debug/net6.0/1stlab.runtimeconfig.json
+/home/kissejau/KSPEU/C#_OOP/1stlab/bin/Debug/net6.0/1stlab.dll
+/home/kissejau/KSPEU/C#_OOP/1stlab/bin/Debug/net6.0/ref/1stlab.dll
+/home/kissejau/KSPEU/C#_OOP/1stlab/bin/Debug/net6.0/1stlab.pdb
+/home/kissejau/KSPEU/C#_OOP/1stlab/obj/Debug/net6.0/1stlab.csproj.AssemblyReference.cache
+/home/kissejau/KSPEU/C#_OOP/1stlab/obj/Debug/net6.0/1stlab.GeneratedMSBuildEditorConfig.editorconfig
+/home/kissejau/KSPEU/C#_OOP/1stlab/obj/Debug/net6.0/1stlab.AssemblyInfoInputs.cache
+/home/kissejau/KSPEU/C#_OOP/1stlab/obj/Debug/net6.0/1stlab.AssemblyInfo.cs
+/home/kissejau/KSPEU/C#_OOP/1stlab/obj/Debug/net6.0/1stlab.csproj.CoreCompileInputs.cache
+/home/kissejau/KSPEU/C#_OOP/1stlab/obj/Debug/net6.0/1stlab.dll
+/home/kissejau/KSPEU/C#_OOP/1stlab/obj/Debug/net6.0/ref/1stlab.dll
+/home/kissejau/KSPEU/C#_OOP/1stlab/obj/Debug/net6.0/1stlab.pdb
+/home/kissejau/KSPEU/C#_OOP/1stlab/obj/Debug/net6.0/1stlab.genruntimeconfig.cache
