@@ -46,7 +46,7 @@ bindsym XF86AudioMicMute exec --no-startup-id pactl set-source-mute @DEFAULT_SOU
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec tilix
+bindsym $mod+Return exec alacritty
 
 # kill focused window
 bindsym $mod+q kill
@@ -217,7 +217,7 @@ bar {
 exec_always feh --bg-fill /home/kissejau/Pictures/background.jpg
 
 #TERMINAL TRANSPERENCY
-exec --no-sturtup-id picom -b --experimental-backends
+exec_always --no-startup-id  picom -b --config ~/.config/picom.conf
 
 #LANGUAGES KEYBOARD
 exec_always  --no-startup-id "setxkbmap -layout us,ru"
@@ -228,3 +228,8 @@ exec_always --no-startup-id "setxkbmap -option 'grp:win_space_toggle'"
 # BRIGHTNESS INC/DEC
 bindsym XF86MonBrightnessUp exec brightnessctl set +10%
 bindsym XF86MonBrightnessDown exec brightnessctl set 10-%
+
+#GAPS
+gaps inner 10
+gaps outer 0
+smart_gaps on
