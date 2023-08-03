@@ -1,0 +1,19 @@
+{
+    "editor.fontSize": 16,
+    "editor.lineNumbers": "off",
+    "terminal.integrated.fontFamily": "monospace",
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.overviewRulerBorder": false,
+    "editor.glyphMargin": false,
+    "editor.roundedSelection": false,
+    "editor.minimap.enabled": false,
+    "go.useLanguageServer": true,
+    "go.toolsManagement.autoUpdate": true,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.fontFamily": "\"Source Code Pro\", \"JetBrains Mono\"",
+    "editor.fontWeight": "600",
+    "workbench.sideBar.location": "right",
+    "window.menuBarVisibility": "toggle",
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Rosé Pine"
+}

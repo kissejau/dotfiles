@@ -14,7 +14,7 @@ set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
-font pango:monospace 10
+font pango:monospace 12
 
 # This font is widely installed, provides lots of unicode glyphs, right-to-left
 # text rendering and scalability on retina/hidpi displays (thanks to pango).
@@ -182,10 +182,10 @@ bindsym $mod+r mode "resize"
 
 #i3bar with bumblebee-status
 bar {
-    font pango:JetBrainsMono Nerd Font, Awesome 11
+    font pango:JetBrainsMono Nerd Font, Awesome 13
 	status_command bumblebee-status \
-		-m memory disk time date pulseout battery \
-		-p memory.format="{percent:05.02f}%" disk.format="{used}/{size}" time.format="%H:%M" date.format=" %a, %b %d %Y" weather.location="Kazan" weather.showcity="true" traffic.showname="False" traffic.format="{:.2f}"\
+		-m memory disk weather time date battery \
+		-p memory.format=" {percent:05.02f}%" disk.format=" {used}/{size}" time.format=" %H:%M" time.locale="Kazan" date.format="  %a, %b %d %Y" weather.location="Kirov" weather.showcity="false" traffic.showname="False" traffic.format="{:.2f}"\
 		-t rose-pine
 	position top
 
@@ -223,9 +223,16 @@ exec_always  --no-startup-id "setxkbmap -layout us,ru"
 #LANGUAGE SWITCH
 exec_always --no-startup-id "setxkbmap -option 'grp:win_space_toggle'"
 
+#DISABLE BEEP-BEEP SOUND
+exec_always --no-startup-id sudo rmmod pcspkr
+
 # BRIGHTNESS INC/DEC
 bindsym XF86MonBrightnessUp exec brightnessctl set +10%
 bindsym XF86MonBrightnessDown exec brightnessctl set 10-%
+
+for_window [class="^.*"] border pixel 0
+
+exec dbus-update-activation-environment --systemd DBUS_SESSION_BUS_ADDRESS DISPLAY XAUTHORITY &
 
 #GAPS
 #gaps inner 10
