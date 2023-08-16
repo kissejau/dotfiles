@@ -1,19 +1,32 @@
 {
-    "editor.fontSize": 16,
+    // FONTS
+    "editor.fontFamily": "\"Source Code Pro\", \"JetBrains Mono\", \"monospace\"", // deps
+    "editor.fontSize": 17,
+    "editor.fontWeight": "600",
+    "terminal.integrated.fontFamily": "\"JetBrains Mono\", \"monospace\"", // deps
+    "terminal.integrated.fontSize": 16,
+    // OTHER INTERFACE SETTINGS
+    "workbench.colorTheme": "Rosé Pine (no italics)", // deps
+    "workbench.iconTheme": "vscode-icons", // deps
     "editor.lineNumbers": "off",
-    "terminal.integrated.fontFamily": "monospace",
-    "editor.hideCursorInOverviewRuler": true,
-    "editor.overviewRulerBorder": false,
-    "editor.glyphMargin": false,
-    "editor.roundedSelection": false,
     "editor.minimap.enabled": false,
+    "editor.cursorStyle": "line",
+    "editor.renderLineHighlight": "none",
+    "editor.cursorBlinking": "solid",
+    "editor.folding": false,
+    "editor.autoClosingBrackets": "languageDefined",
     "go.useLanguageServer": true,
     "go.toolsManagement.autoUpdate": true,
     "editor.unicodeHighlight.ambiguousCharacters": false,
-    "editor.fontFamily": "\"Source Code Pro\", \"JetBrains Mono\"",
-    "editor.fontWeight": "600",
-    "workbench.sideBar.location": "right",
-    "window.menuBarVisibility": "toggle",
-    "window.zoomLevel": 1,
-    "workbench.colorTheme": "Rosé Pine"
+    "window.menuBarVisibility": "compact",
+    "explorer.compactFolders": false,
+    "workbench.activityBar.visible": false,
+    "editor.wordWrap": "off",
+    // OTHER SHIT
+    "extensions.ignoreRecommendations": true,
+    "editor.formatOnSave": true,
+    "telemetry.telemetryLevel": "off",
+    "workbench.enableExperiments": false,
+    "explorer.confirmDragAndDrop": false,
+    "editor.guides.indentation": false,
 }
